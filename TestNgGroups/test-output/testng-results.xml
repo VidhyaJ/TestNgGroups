@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16" started-at="2015-08-08T12:08:54Z" finished-at="2015-08-08T12:08:54Z">
+    <groups>
+      <group name="database">
+        <method signature="TestA2$TestGroup.testConnectMsSQL()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="testConnectMsSQL" class="Groups.test.TestA2$TestGroup"/>
+        <method signature="TestA2$TestGroup.testConnectOracle()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="testConnectOracle" class="Groups.test.TestA2$TestGroup"/>
+      </group> <!-- database -->
+      <group name="selenium-test">
+        <method signature="TestA2$TestGroup.runSelenium()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="runSelenium" class="Groups.test.TestA2$TestGroup"/>
+        <method signature="TestA2$TestGroup.runSelenium1()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="runSelenium1" class="Groups.test.TestA2$TestGroup"/>
+      </group> <!-- selenium-test -->
+    </groups>
+    <test name="Default test" duration-ms="16" started-at="2015-08-08T12:08:54Z" finished-at="2015-08-08T12:08:54Z">
+      <class name="Groups.test.TestA2$TestGroup">
+        <test-method status="PASS" signature="setupDB()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="setupDB" is-config="true" duration-ms="16" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDB -->
+        <test-method status="PASS" signature="runSelenium()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="runSelenium" duration-ms="0" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium -->
+        <test-method status="PASS" signature="testConnectOracle()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="testConnectOracle" duration-ms="0" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+        <test-method status="PASS" signature="runSelenium1()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="runSelenium1" duration-ms="0" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runSelenium1 -->
+        <test-method status="PASS" signature="testConnectMsSQL()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="testConnectMsSQL" duration-ms="0" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method status="PASS" signature="runFinal()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="runFinal" duration-ms="0" depends-on-groups="database, selenium-test" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runFinal -->
+        <test-method status="PASS" signature="cleanDB()[pri:0, instance:Groups.test.TestA2$TestGroup@1cd072a9]" name="cleanDB" is-config="true" duration-ms="0" started-at="2015-08-08T17:38:54Z" finished-at="2015-08-08T17:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanDB -->
+      </class> <!-- Groups.test.TestA2$TestGroup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
