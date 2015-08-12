@@ -14,6 +14,8 @@ public class TestA1 {
 	     public void setup(){
          
         System.out.println("Set up test cases");
+        
+        System.out.println("Set up test cases : Arjun");
     }
  
 	@BeforeGroups
